@@ -1,0 +1,151 @@
+@layer layout, utilities;
+
+@layer utilities {
+    .mb-0 {
+        margin-bottom: 0;
+    }
+
+}
+
+@layer layout {
+    
+    html {
+        box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    background-color: rgb(230, 255, 255);
+    background: linear-gradient(to right,#e2e2e2,#c9d6ff);
+    padding: 0 12rem;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.form-button, .form-input, .form-select {
+    width: 100%;
+}
+
+input[type="radio"] {
+    width: 1rem;
+}
+.form-h {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-box {
+        box-shadow: 0 0 1em rgb(148, 155, 163);
+        border-radius: 1rem;
+        padding: 3rem;
+        background-color: rgb(255, 255, 255);
+        width: 30rem;
+        margin: 0 auto;
+    }
+    
+    .form-box h2 {
+        text-align: center;
+    }
+    
+    .input-box {
+        min-height: 4rem;
+        margin-bottom: 1rem;
+    } 
+    
+    .form-button, input, select {
+        border-radius: 0.3rem;
+    }
+    
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], .form-select {
+        height: 2.5rem;
+        padding: 0 0.7rem;
+        border: 1px inset rgb(118, 118, 118);
+    }
+    
+    .form-button[type="submit"] {
+        height: 2.5rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(96,31,158);
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .form-button:hover {
+        background-color: rgb(88, 153, 218, 0.8);
+    }
+    
+    .form-label {
+        font-weight: bold;
+    }
+    
+    .form-radio {
+        display: inline-block;
+        padding: 0 1rem;
+        margin-top: 0.6rem;
+    }
+    
+    .error {
+        color: rgb(255, 0 , 0);
+    }
+
+    div.error {
+        /* font-weight: bold; */
+        text-align: center;
+        color: rgb(177, 0, 0);
+        background-color: rgb(255, 0, 0, 0.22);
+        margin: 1rem 0 0 0;
+        padding: 1rem;
+        border: 1px solid rgb(255, 0, 0, 0.25);
+        border-radius: 0.5rem;
+    }
+    
+    .form-button.cancel {
+        height: 2.5rem;
+        color: rgb(255, 255, 255);
+        background-color: rgba(148, 148, 148);
+        border: none;
+        transition: 0.3s;
+        margin-top: 0.5rem;
+    }
+
+    .form-button.cancel:hover {
+        background-color: rgba(148, 148, 148, 0.8); 
+    }
+
+    form hr {
+        margin: 1rem 0;
+    }
+
+    input[disabled] {
+        border: none;
+        background-color: rgb(227 227 227);
+    }
+    .form-box.candidate {
+        width: 27rem;
+    }
+    .candidate .input-box {
+        min-height: 0;
+    }
+}
