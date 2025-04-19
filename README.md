@@ -73,5 +73,5 @@ This online voting system is designed to make voting easier and faster. It allow
 
 ## Admin Panel Login Details
 - Username: admin
-- Password: 123
+- Password: admin
 
