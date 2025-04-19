@@ -10,11 +10,14 @@ This online voting system is designed to make voting easier and faster. It allow
 ## Features
 - **Admin Panel: Manage and access voters, candidates.
 - **Voter Registration: Allow users to register as voters.
+- **Voter Accounts: Legitimate allowing users vote
 - **Candidate Registration: Allow users to register as a candidate
 - **Partylist Registration: Allow users to register their partylist
 - **View Voters: Allows users to view registered voters
 - **View Candidates: Allows users to view registered candidates
 - **View Partylist: Allows users to view the registered partylist
+- **Add Position: Allows the users to add their position, numbers of maximum candidates and names
+- **View Positions: Allows the users to access the informations refer to adding positions
 - **Manage Candidates and Voters: View, edit, and delete candidates and voters
 - **Voting Process: Secure and user-friendly interface for casting votes.
 - **Results Tabulation: Automatic tallying and display of election results.
